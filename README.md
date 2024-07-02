@@ -1,7 +1,7 @@
 # Beruln_Fast_Api
 
 - file "dataset_modef.py":
-   the DiverseVul dataset (available on huggingface) was used in this work. It was stabilized by equalizing the number of vulnerable/unvulnerable examples. The amount of data has also been reduced
+   the DiverseVul dataset (available on huggingface and github "https://github.com/wagner-group/diversevul") was used in this work. It was stabilized by equalizing the number of vulnerable/unvulnerable examples. The amount of data has also been reduced
 
 - file "api_fr.py":
    a user request in FastAPI is sent in the format of a piece of C-code in a variable field
